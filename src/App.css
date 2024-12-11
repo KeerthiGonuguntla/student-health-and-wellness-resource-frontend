@@ -1,0 +1,43 @@
+.login-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.login-section {
+  flex: 1;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-section label {
+  margin-bottom: 10px;
+}
+
+.login-section input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.project-info-section {
+  flex: 1;
+  max-width: 600px;
+}

@@ -1,0 +1,44 @@
+/* Nutrition tabs styling */
+.nutrition-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .nutrition-tabs button {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .nutrition-tabs button.active-tab {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Container for diet plans */
+  .diet-plan-container {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 400px; /* Adjust the height as needed */
+    scroll-behavior: smooth;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Diet plan individual sections */
+  .diet-plan {
+    margin-bottom: 20px; /* Spacing between plans */
+  }
+  
+  #DietPlan1, #DietPlan2 {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8fa;
+    color: #333;
+  }
+  
+  .counseling-groups {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enables vertical scrolling */
+    max-height: 80vh; /* Limits height to enable scroll */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Counselor List */
+  .counselor-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .counselor-card {
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .counselor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .counselor-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .counselor-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .view-classes-button {
+    background-color: #ffffff;
+    color: #2575fc;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .view-classes-button:hover {
+    background-color: #2575fc;
+    color: #ffffff;
+  }
+  
+  /* Class Booking */
+  .class-booking {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .class-booking h2 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .class-booking p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .class-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .class-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .class-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .class-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #2575fc;
+  }
+  
+  .class-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .book-class-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-class-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Close Button */
+  .close-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .close-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Booking Confirmation */
+  .confirmation {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation h2 {
+    color: #2575fc;
+    font-size: 1.8rem;
+  }
+  
+  .confirmation p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
