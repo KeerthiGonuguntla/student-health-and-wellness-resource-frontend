@@ -49,7 +49,7 @@ function AdminPage() {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost:8081/addstudent', studentData, {
+      const response = await axios.post('https://springbootsdpdeploy.up.railway.app/addstudent', studentData, {
         headers: { 'Content-Type': 'application/json' },
       });
       if (response.status === 200) {
