@@ -21,7 +21,7 @@ function ViewAllStudents() {
 
   const fetchStudents = async () => {
     try {
-      const response = await axios.get('http://localhost:8081/viewall');
+      const response = await axios.get('https://springbootsdpdeploy.up.railway.app/viewall');
       setStudents(response.data);
     } catch (error) {
       console.error('Error fetching students:', error);
@@ -31,7 +31,7 @@ function ViewAllStudents() {
 
   const handleDeleteStudent = async (email) => {
     try {
-      const response = await axios.delete(`http://localhost:8081/deletestudent`, {
+      const response = await axios.delete(`https://springbootsdpdeploy.up.railway.app/deletestudent`, {
         params: { email },
       });
       if (response.status === 200) {
@@ -56,7 +56,7 @@ function ViewAllStudents() {
 
   const handleUpdateStudent = async () => {
     try {
-      const response = await axios.put('http://localhost:8081/update', editStudent);
+      const response = await axios.put('https://springbootsdpdeploy.up.railway.app/update', editStudent);
       if (response.status === 200) {
         alert('Student updated successfully!');
         fetchStudents();
